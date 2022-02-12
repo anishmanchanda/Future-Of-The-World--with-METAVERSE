@@ -1,6 +1,6 @@
 html{font-size: 10px;
+    
 }
-
 
 body{
   font-family: calibiri,Arial ;
@@ -14,92 +14,47 @@ body{
 h1{
   font-size: 4rem;
   margin-bottom: 0;
-}
-
-@media (max-width: 460px){
-  h1{
-    font-size: 3.5 rem;
-    line-height: 1.2;
-  }
+   line-height: 1.2;
 }
 
 h2{
   font-size: 3.25rem;
 }
 
-a{color: #477ca7}
-a:visited{
-  color: #74638f
-}
 #main {
-  margin: 30px 8px;
-  padding: 15px;
-  border-radius: 5px;
+  margin: 3rem 1rem;
+  padding: 5rem;
+  border-radius: 2.5%;
   background: #eee;
   display:flex;
   flex-direction: column;
   
 }
 
-@media (max-width: 460px) {
-  #main {
-    margin: 0;
-  }
-}
-
 img {
   max-width: 100%;
   display: block;
   height: auto;
+  width:auto;
   margin: 0 auto;
   border-radius: 2.5%;
-
-  
 }
 
 #img-div {
   background: white;
-  padding: 25px;
+  padding: 3rem;
   margin: 0;
-  width: 500px;
+  width: 60rem;
   align-self: center; 
   align-items: center;
   border-radius: 5%;
 }
 
 #img-caption {
-  margin: 15px 0 5px 0;
+  margin: 1rem 0 .5rem 0;
+  align-self: center;
+  font-size: 1.4rem;
 }
 
-@media (max-width: 460px) {
-  #img-caption {
-    font-size: 1.4rem;
-  }
-}
 
-#headline {
-  margin: 50px 0;
-  text-align: center;
-}
 
-ul {
-  max-width: 550px;
-  margin: 0 auto 50px auto;
-  text-align: left;
-  line-height: 1.6;
-}
-
-li {
-  margin: 16px 0;
-}
-
-blockquote {
-  font-style: italic;
-  max-width: 545px;
-  margin: 0 auto 50px auto;
-  text-align: left;
-}
-
-#image{
-  width:500px
-}
