@@ -11,16 +11,6 @@ body{
   margin: 1cm;
   align-items: flex-start;
 }
-h1{
-  font-size: 4rem;
-  margin-bottom: 0;
-   line-height: 1.2;
-}
-
-h2{
-  font-size: 3.25rem;
-}
-
 #main {
   margin: 3rem 1rem;
   padding: 5rem;
@@ -30,6 +20,21 @@ h2{
   flex-direction: column;
   
 }
+#paragraph{
+  margin-left: 3rem ;
+  margin-right: 3rem;
+}
+h1{
+  font-size: 4rem;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+h2{
+  font-size: 3.25rem;
+}
+
+
 
 img {
   max-width: 100%;
