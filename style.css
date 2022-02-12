@@ -1,4 +1,6 @@
-html{font-size: 10px;}
+html{font-size: 10px;
+}
+
 
 body{
   font-family: calibiri,Arial ;
@@ -7,6 +9,7 @@ body{
   text-align: center;
   color: #333;
   margin: 1cm;
+  align-items: flex-start;
 }
 h1{
   font-size: 4rem;
@@ -33,7 +36,11 @@ a:visited{
   padding: 15px;
   border-radius: 5px;
   background: #eee;
+  display:flex;
+  flex-direction: column;
+  
 }
+
 @media (max-width: 460px) {
   #main {
     margin: 0;
@@ -45,6 +52,9 @@ img {
   display: block;
   height: auto;
   margin: 0 auto;
+  border-radius: 2.5%;
+
+  
 }
 
 #img-div {
@@ -52,12 +62,13 @@ img {
   padding: 25px;
   margin: 0;
   width: 500px;
-  ;
+  align-self: center; 
+  align-items: center;
+  border-radius: 5%;
 }
 
 #img-caption {
   margin: 15px 0 5px 0;
-  text-align: center;
 }
 
 @media (max-width: 460px) {
